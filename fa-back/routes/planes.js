@@ -4,7 +4,7 @@ var planeData = require('../data/planes')
 
 console.log(planeData)
 
-/* GET users listing. */
+/* GET planes listing. */
 router.get('/', function(req, res, next) {
   res.json(planeData);
 });
