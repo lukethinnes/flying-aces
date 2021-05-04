@@ -16,7 +16,7 @@ export default function PlanesList() {
         <div>
             <h1>Here is a list of planes!</h1>
             <ol>
-                {planes.map(plane => <li>{plane.name}</li>)}
+                {planes.map(plane => <li key={plane.id}>{plane.name}</li>)}
             </ol>
         </div>
     )
